@@ -1,0 +1,13 @@
+.health-bar {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  width: 200px;
+  height: 20px;
+  border: 1px solid #000;
+}
+
+.health {
+  height: 100%;
+  background-color: green;
+}
