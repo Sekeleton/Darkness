@@ -1,0 +1,7 @@
+// Function to update the health bar
+function updateHealth(percentage) {
+  const healthBar = document.querySelector('.health');
+  healthBar.style.width = percentage + '%';
+}
+
+// Example usage: updateHealth(50); // This would set the health to 50%
